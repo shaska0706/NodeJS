@@ -1,0 +1,22 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "Proyecto 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaska0706/NodeJS.git"
+  },
+  "author": "shaska0706",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shaska0706/NodeJS/issues"
+  },
+  "homepage": "https://github.com/shaska0706/NodeJS#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
