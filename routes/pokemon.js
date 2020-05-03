@@ -1,6 +1,6 @@
 const express = require('express');
 const pokemon = express.Router();
-const db = require('../config/database')
+const db = require('../config/database');
 
 pokemon.post("/", async(req, res, next)=>{
     const {pok_name, pok_height, pok_weight, pok_base_experience} = req.body;
@@ -15,7 +15,6 @@ pokemon.post("/", async(req, res, next)=>{
 
         return res.status(500).json({code: 500, message: "Ocurrio un error"});
     }
-
     return res.status(500).json({code: 500, message: "Campos incompletos"});    
 });
 
